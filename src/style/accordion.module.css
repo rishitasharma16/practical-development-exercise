@@ -1,0 +1,34 @@
+
+.card_section a{
+    background: #DFDEDD;
+    text-decoration: none;
+    color: #1C1812;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.accordion_card{
+    width: 100%;
+    height: 280px;
+    background-size: cover !important ;
+    background-position: center !important;
+    filter: grayscale(100%);
+    margin-bottom: 30px;
+    padding:0px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accordion_text h1{
+    font-size:1.8rem;
+    color: #1C1812;
+
+}
+
+.accordion_text p{
+    font-size: 1.1rem;
+    /* letter-spacing:1px; */
+    color: #65625E;
+}

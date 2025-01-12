@@ -1,8 +1,21 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task – Central Texas Fly Fishing Developed By - mailrishitasharma@gmail.com Project Details:- Home Page Only -: Technologies used:-
 
-Currently, two official plugins are available:
+React + vite
+React Bootstrap
+Aos animation library
+React Router Dom
+axios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Features :-
+Responsive
+Animated
+
+
+To start the development code :- type 'npm run dev' in terminal
+
+
+note:- there is a fallback code for no- server environment for {nav links} and {footer links} 'only for deployment purpose'
+
+To start json server :- type 'npx json-server db.json' in separate terminal

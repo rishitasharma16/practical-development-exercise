@@ -1,0 +1,22 @@
+.hero_heading h1{
+    font-family: InterSemiBold;
+}
+
+.hero_heading p{
+    font-family: InterRegular;
+    color: #65625E;
+}
+
+.hero_heading button{
+    background: #514432;
+    color: #F7F7F6;
+    font-family: InterRegular;
+}
+
+.feature_section h1, .stories_section h1{
+    font-family: InterSemiBold;
+}
+/* .feature_section{
+    padding:5rem 0;
+} */
+

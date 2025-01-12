@@ -1,42 +1,73 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@font-face {
+    font-family:InterSemiBold;
+    src: url('./assets/fonts/Inter-SemiBold.ttf');
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+@font-face {
+    font-family:InterRegular;
+    src: url('./assets/fonts/Inter-Regular.ttf');
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+    font-family:GlutenSemiBold;
+    src: url('./assets/fonts/Gluten-SemiBold.ttf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family:GlutenRegular;
+    src: url('./assets/fonts/Gluten-Regular.ttf');
 }
 
-.card {
-  padding: 2em;
+body{
+    font-family: InterRegular;
 }
 
-.read-the-docs {
-  color: #888;
+
+.accordion-body,
+.accordion-header,
+.accordion button,
+.accordion-item,
+.accordion,
+.card
+{
+    background-color: #F1ECE1 !important;
+    border: none !important;
+    padding: 0 !important;
+   
+    
+}
+
+.accordion-header{
+    padding: 1rem 0 !important;
+}
+
+.accordion-header{
+    border-bottom: 2px solid grey !important;
+    
+}
+
+.accordion button:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.accordion{
+   --bs-accordion-border-width: none !important;
+}
+
+.btn:hover{
+    background: #635745;
+    color: #F7F7F6;
+}
+
+.btn{
+    border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
 }
